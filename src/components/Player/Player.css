@@ -1,3 +1,34 @@
-body {
-    background-color: khaki;
+.Player {
+    list-style: none;
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.Player__name {
+    color: red;
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.Player__score,
+.Player__button,
+.Player__button_delete {
+    padding: 10px;
+    color: black;
+    font-size: 24pt;
+    text-align: right;
+}
+
+.Player__button,
+.Player__button_delete {
+    float: right;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.Player__button_delete {
+    color: red;
 }
