@@ -40,7 +40,7 @@ it('should delete player from state', () => {
     const appComponent = shallow(<App players={[]} />);
 
     const onPlayerRemove = appComponent.find(PlayersList).prop('onPlayerRemove');
-    onPlayerRemove('Ania');
+    onPlayerRemove('Antoś');
 
 
     const players = appComponent.state().players;
